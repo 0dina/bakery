@@ -18,12 +18,6 @@ typedef struct{
     
 }BREAD_DATA;
 
-typedef struct{
-    int posX;
-    int posY;
-    
-    char objectShape[10][20];
-}BUTTON;
 
 void DataLoad(BREAD_DATA *ptr, char *name, char *number, int price, char *preference, int count);
 void ContactMenuByPointer(BREAD_DATA *p);

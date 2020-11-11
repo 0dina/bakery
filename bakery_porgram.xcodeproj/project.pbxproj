@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3686C7C3254A6390002C19E6 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3686C7C2254A6390002C19E6 /* main.c */; };
-		36ACADB52550F99700DE0F29 /* bread.c in Sources */ = {isa = PBXBuildFile; fileRef = 36ACADB42550F99700DE0F29 /* bread.c */; };
-		36ACADBA25592A1600DE0F29 /* ui.c in Sources */ = {isa = PBXBuildFile; fileRef = 36ACADB925592A1600DE0F29 /* ui.c */; };
-		36C1F10D255B73D90091E82D /* getch.c in Sources */ = {isa = PBXBuildFile; fileRef = 36C1F10B255B73D80091E82D /* getch.c */; };
+		36F5662F255B7C0D0083D4E8 /* bread.c in Sources */ = {isa = PBXBuildFile; fileRef = 36F56628255B7C0C0083D4E8 /* bread.c */; };
+		36F56630255B7C0D0083D4E8 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 36F5662A255B7C0D0083D4E8 /* main.c */; };
+		36F56631255B7C0D0083D4E8 /* getch.c in Sources */ = {isa = PBXBuildFile; fileRef = 36F5662B255B7C0D0083D4E8 /* getch.c */; };
+		36F56632255B7C0D0083D4E8 /* ui.c in Sources */ = {isa = PBXBuildFile; fileRef = 36F5662D255B7C0D0083D4E8 /* ui.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,13 +27,13 @@
 
 /* Begin PBXFileReference section */
 		3686C7BF254A6390002C19E6 /* bakery_porgram */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = bakery_porgram; sourceTree = BUILT_PRODUCTS_DIR; };
-		3686C7C2254A6390002C19E6 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		36ACADB32550F8A400DE0F29 /* bread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bread.h; sourceTree = "<group>"; };
-		36ACADB42550F99700DE0F29 /* bread.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bread.c; sourceTree = "<group>"; };
-		36ACADB8255927EF00DE0F29 /* ui.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ui.h; sourceTree = "<group>"; };
-		36ACADB925592A1600DE0F29 /* ui.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ui.c; sourceTree = "<group>"; };
-		36C1F10B255B73D80091E82D /* getch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = getch.c; path = ../../../Downloads/bakery_porgram/getch.c; sourceTree = "<group>"; };
-		36C1F10C255B73D90091E82D /* getch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = getch.h; path = ../../../Downloads/bakery_porgram/getch.h; sourceTree = "<group>"; };
+		36F56628255B7C0C0083D4E8 /* bread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bread.c; sourceTree = "<group>"; };
+		36F56629255B7C0D0083D4E8 /* ui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ui.h; sourceTree = "<group>"; };
+		36F5662A255B7C0D0083D4E8 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		36F5662B255B7C0D0083D4E8 /* getch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = getch.c; sourceTree = "<group>"; };
+		36F5662C255B7C0D0083D4E8 /* getch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = getch.h; sourceTree = "<group>"; };
+		36F5662D255B7C0D0083D4E8 /* ui.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ui.c; sourceTree = "<group>"; };
+		36F5662E255B7C0D0083D4E8 /* bread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bread.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,13 +66,13 @@
 		3686C7C1254A6390002C19E6 /* bakery_porgram */ = {
 			isa = PBXGroup;
 			children = (
-				3686C7C2254A6390002C19E6 /* main.c */,
-				36ACADB32550F8A400DE0F29 /* bread.h */,
-				36ACADB42550F99700DE0F29 /* bread.c */,
-				36C1F10B255B73D80091E82D /* getch.c */,
-				36C1F10C255B73D90091E82D /* getch.h */,
-				36ACADB8255927EF00DE0F29 /* ui.h */,
-				36ACADB925592A1600DE0F29 /* ui.c */,
+				36F56628255B7C0C0083D4E8 /* bread.c */,
+				36F5662E255B7C0D0083D4E8 /* bread.h */,
+				36F5662B255B7C0D0083D4E8 /* getch.c */,
+				36F5662C255B7C0D0083D4E8 /* getch.h */,
+				36F5662A255B7C0D0083D4E8 /* main.c */,
+				36F5662D255B7C0D0083D4E8 /* ui.c */,
+				36F56629255B7C0D0083D4E8 /* ui.h */,
 			);
 			path = bakery_porgram;
 			sourceTree = "<group>";
@@ -133,10 +133,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36ACADB52550F99700DE0F29 /* bread.c in Sources */,
-				36ACADBA25592A1600DE0F29 /* ui.c in Sources */,
-				3686C7C3254A6390002C19E6 /* main.c in Sources */,
-				36C1F10D255B73D90091E82D /* getch.c in Sources */,
+				36F56631255B7C0D0083D4E8 /* getch.c in Sources */,
+				36F56630255B7C0D0083D4E8 /* main.c in Sources */,
+				36F5662F255B7C0D0083D4E8 /* bread.c in Sources */,
+				36F56632255B7C0D0083D4E8 /* ui.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -37,7 +37,7 @@ int main(){
        
         if(value == 3){ //추가함수
             result = addUser(breads, NumOfpang);
-            if( result == 3)
+            if( result == 1)
             {
                 NumOfpang++;
             }
@@ -62,6 +62,7 @@ int main(){
         }
         
     }
+    printf("Have a nice day^^");
     
 }
 

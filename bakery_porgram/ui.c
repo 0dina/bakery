@@ -8,14 +8,11 @@
 #include <stdio.h>
 #include "ui.h"
 
-#define gotoxy(x,y) printf("\033[%d;%dH", (y), (x))
+
 
 void showButton(UI_BUTTON *p){
-    
-    int x,y;
-    x =p->x;
-    y = p->y;
-    gotoxy(x,y);
+
+    gotoxy(p->x,p->y);
     printf("%s\n",p->shape[0]);
     
     gotoxy(p->x,p->y+1);
@@ -25,3 +22,25 @@ void showButton(UI_BUTTON *p){
     printf("%s\n",p->shape[2]);
     
 }
+
+void showInputBox(UI_INPUT_TEXT *p){
+    
+    gotoxy(p->x,p->y);
+    printf("%s\n",p->text);
+    
+    gotoxy(p->x,p->y+1);
+    printf("%s\n",p->shape[0]);
+    
+    gotoxy(p->x,p->y+2);
+    printf("%s\n",p->shape[1]);
+    
+    gotoxy(p->x,p->y+3);
+    printf("%s\n",p->shape[2]);
+    
+    //goto cursor to input area
+    gotoxy(33,21);  //gotoxy(p->x+1,p->y+2);
+    
+    
+    
+}
+
