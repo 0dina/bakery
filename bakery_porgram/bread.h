@@ -14,16 +14,20 @@ typedef struct{
     char number[20];
     int price;
     char preference[20];
+    int stock;
     int count;
     
 }BREAD_DATA;
 
 
-void DataLoad(BREAD_DATA *ptr, char *name, char *number, int price, char *preference, int count);
+void DataLoad(BREAD_DATA *ptr,
+             char *name, char *number, int price, char *preference, int stock, int count);
+
 void ContactMenuByPointer(BREAD_DATA *p);
 int MainData(BREAD_DATA *ptr, int NumOfpang);
 int addUser(BREAD_DATA AddrInfo[], int i);
 int search(BREAD_DATA breads[], char searchMethod, char *breadNumber);
 int buyBread(BREAD_DATA breads[]);
+int getMenuNumber(void);
 
 #endif /* bread_h */
